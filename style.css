@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#inspire {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;;
+}
+
+blockquote {
+  font-size: 48px;
+  font-family: 'Courgette', sans-serif;
+}
