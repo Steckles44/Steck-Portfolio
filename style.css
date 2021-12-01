@@ -1,27 +1,47 @@
 body {
-  background-color: black;
   font-family: 'Varela Round', sans-serif;
-  color: white;
+}
+
+.container-fluid {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.navbar {
+  background-color: #2C3531;
 }
 
 .nav-link {
-  color: white;
+  color: #D1E8E2;
   text-decoration: none;
   font-size: 24px;
 }
 
 .nav-link:hover {
-  color: white;
-  text-decoration: underline;
+  color: #116466;
 }
 
 #inspire {
-  padding-top: 80px;
-  padding-left: 80px;
-  padding-right: 80px;;
-}
-
-blockquote {
+  background-color: #D9B08C;
+  color: #116466;
   font-size: 48px;
   font-family: 'Courgette', sans-serif;
+}
+
+cite {
+  display: flex;
+}
+
+#about {
+  background-color: #D1E8E2;
+  color: #2C3531;
+  font-size: 24px;
+}
+
+.text-responsive {
+  font-size: calc(25% + 1vw + 1vh);
+}
+
+#projects {
+  background-color: #116466;
 }
