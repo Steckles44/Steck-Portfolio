@@ -14,18 +14,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <!--CSS Stylesheet-->
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  
+
   <body>
     <nav class="navbar navbar-light">
       <div class="container-xxl d-none d-sm-inline-block">
         <ul class="nav justify-content-center">
-          <li class="nav-item">
+          <li class="nav-item me-5">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-5">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
@@ -35,68 +38,67 @@
       </div>
     </nav>
 
-    <div class="container-fluid justify-content-center pt-3 pb-3" id="inspire">
+    <div class="container-fluid pt-3 pb-3" id="about">
       <div class="row">
-        <div class="col-12 quote text-responsive">
-          <blockquote>“Your website is the center of your digital eco-system, like a brick and mortar location, the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door.”</blockquote>
-          <cite class="ms-auto">-Leland Dieno</cite>
+        <div class="col-12 col-lg-8">
+          <h2 class="about-title">About Me</h2>
+          <img src="./images/Cartoon_Me.jpg" class="img-fluid me-3" id="profile-pic" />
+          <p class="text-responsive d-none d-md-inline">My name is Mike Steck. I am 34 years old and am an aspiring web developer. I graduated from University in 2011 with a BA in Communications. I enlisted in the Army National Guard in December, 2016 as a 25B(Information Technology Specialist). I currently work in IT for my state government. I have been married to my beautiful wife Amelia for 9 years and we have two amazing boys, Christian (8) and Noah (5). I am a late comer to coding as I first became interested back in 2017. I first started using Codecademy, then found FreeCodeCamp, Udemy, and finally Altcademy earlier this year.</p>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="ms-5" id="social-media">
+            <h2>Social Media</h2>
+            <a href="https://www.facebook.com/profile.php?id=17223088" target="_blank"><i class="fab fa-facebook fa-3x me-3 m-auto"></i></a>
+            <a href="www.linkedin.com/in/mike-steck-2922499a" target="_blank"><i class="fab fa-linkedin-in fa-3x me-3 m-auto"></i></a>
+            <a href="https://twitter.com/Skers4Life" target="_blank"><i class="fab fa-twitter fa-3x m-auto"></i></a>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="container-fluid pb-5" id="projects">
+      <h2 class="text-responsive pt-5" id="project-title">Projects</h2>
+      <div class="row">
+        <div class="col-12 col-xxl-6 mt-3">
+          <div class="row">
+            <div class="col-12 col-lg-8" id="apple-clone">
+              <img src="./images/Apple Clone.jpg" class="project-imgs" id="newsweek-clone" height="250" />
+            </div>
+            <div class="col-12 col-lg-4">
+              <p class="project-description">Apple Clone</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-6 mt-3">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <img src="./images/Newsweek Clone.jpg" class="project-imgs" id="newsweek-clone" height="250" />
+            </div>
+            <div class="col-12 col-lg-4">
+              <p class="project-description">Newsweek Clone</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-6 mt-3">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <img src="./images/Airbnb Clone.jpg" class="project-imgs" id="airbnb-clone" height="250" />
+            </div>
+            <div class="col-12 col-lg-4">
+              <p class="project-description">Airbnb Clone</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-6 mt-3">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <img src="./images/Airbnb Press Clone.jpg" class="project-imgs" id="press-clone" height="250" />
+            </div>
+            <div class="col-12 col-lg-4">
+              <p class="project-description">Airbnb Press Clone</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="container-fluid pt-5 pb-3" id="about">
-      <div class="row">
-        <div class="col-6">
-          <img src="./images/Cartoon_Me.jpg" class="img-fluid" />
-        </div>
-        <div class="col-6">
-          <h2 class="text-responsive">About</h2>
-          <p class="text-responsive">My name is Mike Steck. I am 34 years old and am an aspiring web developer. I graduated from University in 2011 with a BA in Communications. I enlisted in the Army National Guard in December, 2016 as a 25B(Information Technology Specialist). I currently work in IT for my state government. I have been married to my beautiful wife Amelia for 9 years and we have two amazing boys, Christian (8) and Noah (5). I am a late comer to coding as I first became interested back in 2017. I first started using Codecademy, then found FreeCodeCamp, Udemy, and finally Altcademy earlier this year.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="projects">
-      <h2 class="text-responsive">Projects</h2>
-      <div class="row">
-        <div class="col-12 col-md-6 border">
-          <div class="row">
-            <div class="col-12">
-              <img src="https://via.placeholder.com/250" class="project-imgs" />
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 border">
-          <div class="row">
-            <div class="col-12">
-              <img src="https://via.placeholder.com/250" class="project-imgs" />
-            </div>
-          </div>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-12 col-md-6 border">
-          <div class="row">
-            <div class="col-12">
-              <img src="https://via.placeholder.com/250" class="project-imgs" />
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 border">
-          <div class="row">
-            <div class="col-12">
-              <img src="https://via.placeholder.com/250" class="project-imgs" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" id="social-media">
-      <h2>Social Media</h2>
-      <a href="#">Facebook</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Twitter</a>
-    </div>
-
-
   </body>
