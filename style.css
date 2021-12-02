@@ -7,35 +7,40 @@ body {
   padding-right: 80px;
 }
 
-.navbar {
+nav {
   background-color: #2C3531;
 }
 
 .nav-link {
-  color: #D1E8E2;
-  text-decoration: none;
-  font-size: 24px;
+  color: #D9B08C;
+  font-size: 18px;
 }
 
 .nav-link:hover {
-  color: #116466;
+  color: #D9B08C;
+  text-decoration: underline;
 }
 
-#inspire {
-  background-color: #D9B08C;
-  color: #116466;
-  font-size: 48px;
-  font-family: 'Courgette', sans-serif;
+#profile-pic {
+  float: left;
+  margin-right: 5px;
 }
 
-cite {
-  display: flex;
+#description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.about-title {
+  text-align: center;
+  color: #116466;
+  font-style: italic;
 }
 
 #about {
   background-color: #D1E8E2;
   color: #2C3531;
-  font-size: 24px;
+  font-size: 12px;
 }
 
 .text-responsive {
@@ -44,4 +49,15 @@ cite {
 
 #projects {
   background-color: #116466;
+}
+
+#project-title {
+  text-align: center;
+  color: #D1E8E2;
+  font-style: italic;
+}
+
+.project-description {
+  color: white;
+  font-size: 20px;
 }
